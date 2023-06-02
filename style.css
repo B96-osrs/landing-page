@@ -4,6 +4,7 @@ html,body {
 }
 
 body {
+    font-family: Roboto;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -12,7 +13,6 @@ body {
 }
 
 .header {
-    font-family: "Roboto";
     display: flex;
     background-color:#1F2937;
     gap:8px;
@@ -58,4 +58,32 @@ body {
     border-radius: 6px;
     padding: 6px 12px 6px 12px;
     border: none;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-two-headline {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.info {
+    display: flex;
+    color: grey;
+    gap: 16px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 160px; 
 }
