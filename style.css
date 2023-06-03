@@ -11,6 +11,11 @@ body {
     font-family:"Roboto";
     color: white;
 }
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    
+}
 
 .header {
     display: flex;
@@ -19,6 +24,7 @@ body {
     padding-left: 48px;
     padding-right: 48px;
     padding-top: 16px;
+    font-weight: 500;
 }
 
 .header-logo {
@@ -36,6 +42,10 @@ body {
     color:#F9FAF8;
     padding: 64px;
     gap: 24px;
+}
+
+.section-one img {
+    border-radius: 16px;
 }
 
 .section-one .sign-up-button {
@@ -95,7 +105,7 @@ body {
 }
 
 .section-two-img {
-    border-radius: 84px;
+    border-radius: 32px;
 }
 
 .section-three {
