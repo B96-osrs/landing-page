@@ -1,2 +1,4 @@
-Wrapping up the HTML and CSS lessons from The-Odin-Project with this landing page.
-
+-purpose of this project was to get comfortable using flexbox
+-learn how to create and align sections of webpage
+-learn to align elements of the navigation bar
+-live: https://b96-osrs.github.io/landing-page/
